@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  typesafe-i18n:
-    specifier: ^5.26.1
-    version: 5.26.1(typescript@5.1.6)
-
 devDependencies:
   '@playwright/test':
     specifier: ^1.28.1
@@ -2104,19 +2099,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typesafe-i18n@5.26.1(typescript@5.1.6):
-    resolution: {integrity: sha512-1zSdbB48TJG1LNnsNOUZgk6HJD1ne0w6YSMR854CEHoLDG7zaag46G8P9cQ+TblRHz0vDGyy7E5xlzeEVQlY6A==}
-    hasBin: true
-    peerDependencies:
-      typescript: '>=3.5.1'
-    dependencies:
-      typescript: 5.1.6
-    dev: false
-
   /typescript@5.1.6:
     resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: true
 
   /ufo@1.2.0:
     resolution: {integrity: sha512-RsPyTbqORDNDxqAdQPQBpgqhWle1VcTSou/FraClYlHf6TZnQcGslpLcAphNR+sQW4q5lLWLbOsRlh9j24baQg==}
