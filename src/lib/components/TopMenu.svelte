@@ -1,23 +1,43 @@
 <script lang="ts">
-    import menu from "$lib/data/menu"
-	import { LL, setLocale } from "$i18n/i18n-svelte";
+    import { mainMenu } from "$lib/data/menu"
 
-    setLocale("en");
+    const menuItems = mainMenu.values();
     console.log("top menu");
 </script>
 
-<ul>
-    {#each menu as menuItem}
+<ul class="top-menu">
+    {#each menuItems as menuItem}
         <li>
             <a href={`#${menuItem.name}`}>
-                <!-- {$LL[menuItem.textKey]()} -->
-                {menuItem.name}
+                {menuItem.text}
             </a>
         </li>
     {/each}
 </ul>
 
-1. {$LL.MENU_HOME()} |<br>
-2. {$LL.MENU_ABOUT_ME()} |<br>
-3. {$LL.MENU_CAREER()} |<br>
-4. {$LL.MENU_PORTFOLIO()} |<br>
+<style lang="scss">
+    .top-menu {
+        position: fixed;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    ul {
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+    background-color: #141e6a;
+
+        li>a {
+            all: initial;
+            cursor: pointer;
+            padding: 0.5rem;
+            color: #1e90ff;
+
+            // &.active {
+            //     color: #7d1d41;
+            //     border-bottom: 1px solid;
+            // }
+        }
+    }
+</style>

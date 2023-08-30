@@ -1,12 +1,15 @@
 <script lang="ts">
-    import { setLocale } from "$i18n/i18n-svelte";
+    import AboutMe from "$lib/components/AboutMe.svelte";
+	import Career from "$lib/components/Career.svelte";
+import Home from "$lib/components/Home.svelte";
+	import Portfolio from "$lib/components/Portfolio.svelte";
     import TopMenu from "$lib/components/TopMenu.svelte";
 
-    setLocale("en");
     console.log("+page");
 </script>
 
 <TopMenu></TopMenu>
-
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Home></Home>
+<AboutMe></AboutMe>
+<Career></Career>
+<Portfolio></Portfolio>
