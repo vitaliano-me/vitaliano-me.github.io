@@ -1,4 +1,19 @@
 :root {
   color: #fafafa;
-  background-color: #1a1a1a;
+  background-color: black;
+}
+
+.offset-block {
+  height: var(--offset-size);
+  pointer-events: none;
+}
+
+.container-top-padding {
+  padding-top: var(--offset-size);
+  pointer-events: none;
+}
+
+.container-bottom-margin {
+  margin-bottom: calc(-1 * var(--offset-size));
+  pointer-events: none;
 }
