@@ -1,7 +1,3 @@
-import type { Translation } from "../../i18n/i18n-types";
-
-
-
 export enum MenuItemName {
     home = "MenuItemName_home",
     aboutMe = "MenuItemName_aboutMe",
@@ -11,7 +7,7 @@ export enum MenuItemName {
 
 interface MenuItem {
     name: MenuItemName;
-    textKey: keyof Translation;
+    textKey?: string;// keyof Translation;
     text: string;
     selected: boolean;
 }
@@ -26,13 +22,13 @@ export const mainMenu: ReadonlyMap<MenuItemName, MenuItem> = new Map([
     [ MenuItemName.aboutMe, {
         name: MenuItemName.aboutMe,
         textKey: "MENU_ABOUT_ME",
-        text: "Who am I?",
+        text: "Who\nam I?",
         selected: false
     }],
     [ MenuItemName.career, {
         name: MenuItemName.career,
         textKey: "MENU_CAREER",
-        text: "Professional Experience",
+        text: "Professional\nExperience",
         selected: false
     }],
     [ MenuItemName.portforlio, {

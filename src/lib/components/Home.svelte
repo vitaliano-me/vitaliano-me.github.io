@@ -6,7 +6,7 @@
 </script>
 
 <div
-    class="container-top-padding container-bottom-margin"
+    class="offset-block"
     id={MenuItemName.home}
     style="--offset-size:{offset}"
     >

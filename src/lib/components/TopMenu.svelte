@@ -10,7 +10,7 @@
 <div class="top-menu" style="--top-menu-height:{height}">
     <ul>
         {#each menuItems as menuItem}
-            <li>
+            <li class:active={menuItem.selected}>
                 <a href={`#${menuItem.name}`}>
                     {menuItem.text}
                 </a>
@@ -35,26 +35,39 @@
     ul {
         list-style-type:none;
         display:flex;
-        gap:1.5rem;
+        // gap:1.5rem;
         background-color:#141e6a;
         height: inherit;
         width: inherit;
         margin: 0;
         padding: 0;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        white-space: pre-line;
 
-        li>a {
-            all: initial;
-            cursor: pointer;
-            padding: 0.5rem;
-            color: #1e90ff;
-            text-transform: capitalize;
+        li {
+            display: flex;
+            width: 5rem;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #141e6a;
+            justify-content: center;
 
-            // &.active {
-            //     color: #7d1d41;
-            //     border-bottom: 1px solid;
-            // }
+            a {
+                cursor: pointer;
+                padding: 0.5rem;
+                color: #1e90ff;
+                text-decoration: none;
+            }
+            
+            &:hover {
+                background-color: #000;
+            }
+
+            &.active {
+                color: #7d1d41;
+                border-bottom: 1px solid;
+            }
         }
     }
 </style>

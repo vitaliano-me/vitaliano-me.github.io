@@ -5,14 +5,14 @@
 </script>
 
 <div
-    class="container-top-padding container-bottom-margin"
+    class="offset-block"
     id={MenuItemName.portforlio}
     style="--offset-size:{offset}"
     >
-    <div class="portforlio">
-        PORTFOLIO
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam beatae ducimus ex laborum, deserunt accusantium exercitationem, ipsa quod totam commodi praesentium ipsam. Harum totam facilis atque quas, eius architecto maxime.
-    </div>
+</div>
+<div class="portforlio">
+    PORTFOLIO
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam beatae ducimus ex laborum, deserunt accusantium exercitationem, ipsa quod totam commodi praesentium ipsam. Harum totam facilis atque quas, eius architecto maxime.
 </div>
 
 <style lang="scss">
