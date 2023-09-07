@@ -22,13 +22,13 @@ export const mainMenu: ReadonlyMap<MenuItemName, MenuItem> = new Map([
     [ MenuItemName.aboutMe, {
         name: MenuItemName.aboutMe,
         textKey: "MENU_ABOUT_ME",
-        text: "Who\nam I?",
+        text: "About Me",
         selected: false
     }],
     [ MenuItemName.career, {
         name: MenuItemName.career,
         textKey: "MENU_CAREER",
-        text: "Professional\nExperience",
+        text: "Career",
         selected: false
     }],
     [ MenuItemName.portforlio, {
@@ -38,3 +38,21 @@ export const mainMenu: ReadonlyMap<MenuItemName, MenuItem> = new Map([
         selected: false
     }],
 ]);
+
+export function setMenuItemActive (menuItemName: MenuItemName) {
+    let found = false;
+    for (const [ name, menuItem ] of mainMenu) {
+        if (menuItemName === name) {
+            found = true;
+            menuItem.selected = true;
+            continue;
+        }
+
+        menuItem.selected = false;
+    }
+
+    const home = mainMenu.get(MenuItemName.home);
+    if (!found && home) {
+        home.selected = true;
+    }
+}

@@ -3,18 +3,21 @@
     
     export let offset = "4rem";
     export let nextSectionId: string;
+    export let homeElement: HTMLElement;
 </script>
 
-<div
-    class="offset-block"
-    id={MenuItemName.home}
-    style="--offset-size:{offset}"
-    >
+<div bind:this={homeElement}>
+    <div
+        class="offset-block"
+        id={MenuItemName.home}
+        style="--offset-size:{offset}"
+        >
+    </div>
+    <div class="home">
+        <img class="logo" src="home/Logo_Vitaliano_trim_white.png" alt="Vitaliano">
+    </div>
+    <a class="arrow-down" href="#{nextSectionId}">🢃</a>
 </div>
-<div class="home">
-    <img class="logo" src="home/Logo_Vitaliano_trim_white.png" alt="Vitaliano">
-</div>
-<a class="arrow-down" href="#{nextSectionId}">🢃</a>
 
 <style lang="scss">
     .home {

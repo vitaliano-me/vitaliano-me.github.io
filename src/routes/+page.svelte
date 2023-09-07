@@ -4,19 +4,53 @@
     import AboutMe from "$lib/components/AboutMe.svelte";
 	import Career from "$lib/components/Career.svelte";
 	import Portfolio from "$lib/components/Portfolio.svelte";
-	import { MenuItemName } from "$lib/data/menu";
+	import { MenuItemName, setMenuItemActive } from "$lib/data/menu";
+	import { onMount } from "svelte";
 
     const topMenuHeight = "4rem";
+    let scrollY: number;
+    let home: HTMLElement;
+    let aboutMe: HTMLElement;
+    let career: HTMLElement;
+    let portfolio: HTMLElement;
+    const items: Array<[HTMLElement, MenuItemName]> = []
+
+    $: selectedItem = updateSelectedItem(scrollY);
+    $: console.log(`selectedItem: ${selectedItem}`);
+
+    onMount(() => {
+        items.push(
+            [home, MenuItemName.home],
+            [aboutMe, MenuItemName.aboutMe],
+            [career, MenuItemName.career],
+            [portfolio, MenuItemName.portforlio],
+        );
+    });
+
+    function updateSelectedItem(scrollY: number): MenuItemName {
+        for (const [item, name] of items) {
+            if (scrollY < item.offsetTop + window.screen.availHeight * 0.5) {
+                setMenuItemActive(name);
+                return name;
+            }
+        }
+
+        return MenuItemName.home;
+    }
+
     console.log("+page");
 </script>
 
-<TopMenu height={topMenuHeight}></TopMenu>
+<svelte:window bind:scrollY />
+{#key selectedItem}
+    <TopMenu height={topMenuHeight}></TopMenu>
+{/key}
 
 <div class="content-container">
-    <Home offset={topMenuHeight} nextSectionId={MenuItemName.aboutMe}></Home>
-    <AboutMe offset={topMenuHeight}></AboutMe>
-    <Career offset={topMenuHeight}></Career>
-    <Portfolio offset={topMenuHeight}></Portfolio>
+    <Home bind:homeElement="{home}" offset={topMenuHeight} nextSectionId={MenuItemName.aboutMe}></Home>
+    <AboutMe bind:aboutMeElement="{aboutMe}" offset={topMenuHeight}></AboutMe>
+    <Career bind:careerElement="{career}" offset={topMenuHeight}></Career>
+    <Portfolio bind:portfolioElement="{portfolio}" offset={topMenuHeight}></Portfolio>
 </div>
 
 
