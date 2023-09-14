@@ -26,7 +26,7 @@
         align-items: center;
         justify-content: center;
         height: 50vmax;
-        background-image: url("./home/Vitaliano_profile.jpg");
+        background-image: url("$img/home/Vitaliano_profile.jpg");
         background-position: 0 bottom;
         background-repeat: no-repeat;
         background-size: auto 105%;
