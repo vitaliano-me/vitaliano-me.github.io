@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
-@import url(https://web.archive.org/web/20180817191408cs_/http://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
     height: 100%;
     line-height: 1;
@@ -42,7 +42,7 @@ html {
     min-width: 940px;
 }
 .toppage {
-    background-image: url("/web/20180817191408im_/http://vitaliano.me/img/Vitaliano_profile.jpg");
+    background-image: url("/static/Vitaliano_profile.jpg");
     background-position: 0 center;
     background-repeat: no-repeat;
     background-size: 45% auto;
@@ -220,24 +220,3 @@ input[type="submit"] {
     vertical-align: middle;
     white-space: nowrap;
 }
-
-/*
-     FILE ARCHIVED ON 19:14:08 Aug 17, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:45:41 Aug 08, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.423
-  exclusion.robots: 0.018
-  exclusion.robots.policy: 0.009
-  esindex: 0.009
-  cdx.remote: 7.462
-  LoadShardBlock: 146.364 (3)
-  PetaboxLoader3.resolve: 135.418 (4)
-  PetaboxLoader3.datanode: 83.204 (4)
-  load_resource: 87.532
-*/
