@@ -46,8 +46,14 @@
       ]
     }
   ],
-  "frontMatter.content.pageFolders": [],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "homepage",
+      "path": "[[workspace]]/content/en/homepage"
+    }
+  ],
   "frontMatter.content.publicFolder": "static",
   "frontMatter.framework.id": "hugo",
-  "frontMatter.preview.host": "http://localhost:1313"
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.git.enabled": true
 }
