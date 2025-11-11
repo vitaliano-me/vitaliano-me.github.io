@@ -5,8 +5,25 @@ header_menu: true
 ---
 
 ------
+#### Senior Live-Ops Software Engineer at Fortis Games | São Paulo 
+##### November 2023 – Present
+
+At Fortis Games, I work as part of the **Central Platform** team, developing SDKs, tools, and technical documentation in **Unity3D + C#** to accelerate development across all Game Teams. My work focuses on creating scalable systems, simplifying integrations, and ensuring platform-wide consistency.  
+{.indentation-level-1}
+I was primarily responsible for the **in-game store SDK**, enabling games to create products purchasable with real money, virtual currency, or available for free. The SDK supports **product rotation, purchase limits**, and **dynamic visibility rules** based on user segmentation such as A/B tests, country, age, or spending habits.  
+{.indentation-level-1}
+Additionally, I developed the **account recovery system** integrating **Google Play Games** and **Apple Game Center**, overcoming challenges posed by the lack of proper documentation and testing constraints within the Unity Editor.  
+{.indentation-level-1}
+I also authored **pre-production technical documentation** to support Product teams’ decision-making, synchronized APIs and tasks between Central Platform and Game Teams, and participated in **critical war rooms** to resolve live incidents affecting players.  
+{.indentation-level-1}
+Occasionally, I join Game Teams as an **insource developer** to support critical deliveries — including contributions to **Twilight Towers** ([Google Play](https://play.google.com/store/apps/details?id=com.fortisgames.twilighttower&hl=en)) and two other unannounced titles.  
+{.indentation-level-1}
+
+
+----
+
 #### Tech Lead and Software Designer at Globant | São Paulo 
-##### July 2022—November 2023
+##### July 2022 — November 2023
 
 During my time at Globant, I led a distributed team of seven engineers across three countries to deliver key features for EA’s flagship titles. On **FIFA Online 4** ([fifaonline4.nexon.com](https://fifaonline4.nexon.com)), I collaborated daily with EA Korea stakeholders, proposing and implementing architectural solutions, managing workloads, and achieving early feature delivery for the first time in the project’s history. I designed and developed the exclusive *Club Capture* mode for mobile, leveraging ActionScript 3 for client-side functionality and Node.js for server-side logic, while also enhancing the project’s maintainability by redefining class responsibilities.
 {.indentation-level-1}
@@ -16,7 +33,7 @@ Additionally, I contributed to **UFC 5** ([ea.com/games/ufc/ufc-5](https://ea.co
 ----
 
 #### Senior Software Engineer at Applovin | São Paulo 
-##### May 2022–July 2022
+##### May 2022 – July 2022
 
 Contributed to the development of new features for **Wordscapes** ([Google Play](https://play.google.com/store/apps/details?id=com.peoplefun.wordcross)) ([App Store](https://apps.apple.com/us/app/wordscapes/id1207472156)) using Cerberus-X. Collaborated with cross-functional teams across the U.S., Brazil, and Germany to gather and analyze requirements, ensuring alignment with project goals. Played an active role in enhancing existing systems to improve performance and maintainability.  
 {.indentation-level-1}
@@ -24,7 +41,7 @@ Contributed to the development of new features for **Wordscapes** ([Google Play]
 ----
 
 #### Lead Game Developer at Fanatee | São Paulo 
-##### March 2020–May 2022
+##### March 2020 – May 2022
 
 During my time at Fanatee, I worked on mobile game development in Unity, leading technical initiatives and delivering impactful projects. I spearheaded the development of the **Fanatee Game Framework**, a modular system now used by all game teams at the company. This Framework includes UPM packages for features shared across games, such as Apple and Google store integrations, ad services, analytics, server communication, push notifications, and build automation. Collaborating with the Technical Director, I redesigned the **Word Lanes** architecture, introducing a dynamic mocking layer for server responses that enhanced flexibility in testing.
 {.indentation-level-1}
@@ -36,7 +53,7 @@ On **Everyday Puzzles** ([Google Play](https://bit.ly/everydaycrosswords)), I le
 ----
 
 #### Senior Software Engineer at ACRELEC | São Paulo 
-##### December 2019–March 2020 
+##### December 2019 – March 2020 
 
 While at Acrelec, I developed kiosk and customer self-ordering software for major fast-food retailers using ASP.NET and Angular.js. Collaborating with cross-functional teams, I gathered and analyzed requirements to ensure software aligned with client needs. I also contributed to enhancing existing systems, improving their performance and reliability.
 {.indentation-level-1}
@@ -44,7 +61,7 @@ While at Acrelec, I developed kiosk and customer self-ordering software for majo
 ----
 
 #### Senior Developer at MediaMonks | São Paulo
-##### April 2016–December 2019
+##### April 2016 – December 2019
 
 At MediaMonks, I collaborated with teams across the U.S., Brazil, and the Netherlands to develop cutting-edge VR and interactive experiences using Unity3D. My work included creating Arduino and Raspberry Pi firmware in C++11, server-side and scripting solutions in Python, and applications using Electron, C#, and Node.js. As needed, I took on full-stack development responsibilities, handling both front-end and back-end tasks.
 {.indentation-level-1} 
@@ -75,32 +92,42 @@ I developed firmware in C++98 for an Atmel chip that synced with a Google Cloud 
 Additionally, I created a VR video player in Unity 3D for the **Doritos For the Bold** campaign experience using the Oculus Rift DK1, and I developed a multi-touch surface using C++11 on an Arduino board to control infrared sensors for touch and movement detection in the **Samsung Galaxy.ME** campaign.
 {.indentation-level-1}
 
-<!-- 
 ----
 
-Lead Developer at Diverbras | São Paulo 
-September 2011 – August 2013 
+#### Lead Developer at Diverbras | São Paulo 
+##### September 2011 – August 2013 
 
-Developing games for arcade machines using C# and C++ and managing a team of three developers
-
-----
-
-Game ProgrammerGame Programmer
-CUBOCCCUBOCC
-Sep 2009 - Sep 2011 · 2 yrs 1 moSep 2009 to Sep 2011 · 2 yrs 1 mo
-Developing web/ad games using Unity3D, mainly programming the gameplay, physics and AI
+At Diverbras, I led a small team of three developers in the creation of **arcade games** built in **C#** and **C++**. I was responsible for defining technical direction, supervising code quality, and ensuring timely delivery of projects.  
+{.indentation-level-1}
+My work included developing gameplay systems, optimizing hardware performance for arcade boards, and managing integration between embedded systems and Unity-based tools.  
+{.indentation-level-1}
 
 ----
 
-Game DeveloperGame Developer
-Diverbras · Full-timeDiverbras · Full-time
-Oct 2006 - Sep 2009 · 3 yrsOct 2006 to Sep 2009 · 3 yrs
-Developing arcade games for arcade machines in C++, mainly programming gameplay and
-multiplayer features
+#### Game Programmer at CUBO.CC | São Paulo 
+##### September 2009 – September 2011 
+
+During my time at CUBO.CC, I developed **web and advertising games** using **Unity3D**, focusing on **gameplay**, **physics**, and **AI programming**.  
+{.indentation-level-1}
+I collaborated closely with creative and art teams to transform interactive concepts into high-performing experiences for global advertising campaigns, contributing to the studio’s early adoption of Unity for web-based 3D projects.  
+{.indentation-level-1}
 
 ----
 
-ProgrammerProgrammer
-BrabingoBrabingo
-Feb 2006 - Oct 2006 · 9 mosFeb 2006 to Oct 2006 · 9 mos
-Program the core of cassino games, Edit older cassino games. -->
+#### Game Developer at Diverbras | São Paulo 
+##### October 2006 – September 2009 
+
+As part of Diverbras’s arcade development team, I created multiple **C++** arcade titles from the ground up, implementing **multiplayer systems**, **scoring mechanics**, and **custom input handling** for coin-operated hardware.  
+{.indentation-level-1}
+I also worked on firmware and low-level optimizations to ensure stable frame rates and responsive controls under hardware constraints typical of arcade machines.  
+{.indentation-level-1}
+
+----
+
+#### Programmer at Brabingo | São Paulo 
+##### February 2006 – October 2006 
+
+At Brabingo, I programmed the **core logic of casino games**, refactored and extended legacy titles, and improved the performance and reliability of the company’s proprietary game framework.  
+{.indentation-level-1}
+My contributions helped modernize older products and streamline internal development workflows for future releases.  
+{.indentation-level-1}
