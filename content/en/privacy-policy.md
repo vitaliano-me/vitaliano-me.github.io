@@ -227,17 +227,12 @@ Your continued use of the App after modifications signifies your acceptance of t
 
 If you have questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us:
 
-**Email:** [your contact email]
+**Email:** u9xm09cbg@mozmail.com
 
 **Mailing Address:**  
-[Your Company Name]  
-[Your Street Address]  
-[City, State, ZIP Code]  
-[Country]
-
-**Phone:** [Your phone number]
-
-**Data Protection Officer:** [DPO email] (if applicable)
+vitaliano.me
+São Paulo, SP  
+Brasil
 
 **Response Time:** We will respond to privacy inquiries within 30 days.
 
